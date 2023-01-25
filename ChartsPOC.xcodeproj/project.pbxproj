@@ -9,21 +9,45 @@
 /* Begin PBXBuildFile section */
 		DA8A06B8297E4E570092F70E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8A06B7297E4E570092F70E /* AppDelegate.swift */; };
 		DA8A06BA297E4E570092F70E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8A06B9297E4E570092F70E /* SceneDelegate.swift */; };
-		DA8A06BC297E4E570092F70E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8A06BB297E4E570092F70E /* ViewController.swift */; };
+		DA8A06BC297E4E570092F70E /* BarChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8A06BB297E4E570092F70E /* BarChartViewController.swift */; };
 		DA8A06BF297E4E570092F70E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA8A06BD297E4E570092F70E /* Main.storyboard */; };
 		DA8A06C1297E4E580092F70E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA8A06C0297E4E580092F70E /* Assets.xcassets */; };
 		DA8A06C4297E4E590092F70E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA8A06C2297E4E580092F70E /* LaunchScreen.storyboard */; };
+		DA8F883D297FF0DE00D99490 /* InMemoryBarChartLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8F883C297FF0DE00D99490 /* InMemoryBarChartLoader.swift */; };
+		DA8F8841297FF10E00D99490 /* BarChartLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8F8840297FF10E00D99490 /* BarChartLoader.swift */; };
+		DA8F8848297FF1B300D99490 /* Bar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8F8847297FF19100D99490 /* Bar.swift */; };
+		DAFCFFCA297FC46C000E4445 /* BarChartUIComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFCFFC9297FC46C000E4445 /* BarChartUIComposer.swift */; };
+		DAFCFFCD297FDA80000E4445 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAFCFFCB297FDA37000E4445 /* Charts.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DAFCFFCF297FDA80000E4445 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		DA8A06B4297E4E570092F70E /* ChartsPOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChartsPOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA8A06B7297E4E570092F70E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA8A06B9297E4E570092F70E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DA8A06BB297E4E570092F70E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DA8A06BB297E4E570092F70E /* BarChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartViewController.swift; sourceTree = "<group>"; };
 		DA8A06BE297E4E570092F70E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DA8A06C0297E4E580092F70E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA8A06C3297E4E580092F70E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA8A06C5297E4E590092F70E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA8A06CC297E4EC30092F70E /* Charts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Charts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA8F883C297FF0DE00D99490 /* InMemoryBarChartLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InMemoryBarChartLoader.swift; path = ../../.Trash/InMemoryBarChartLoader.swift; sourceTree = "<group>"; };
+		DA8F8840297FF10E00D99490 /* BarChartLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartLoader.swift; sourceTree = "<group>"; };
+		DA8F8847297FF19100D99490 /* Bar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bar.swift; sourceTree = "<group>"; };
+		DAFCFFC9297FC46C000E4445 /* BarChartUIComposer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartUIComposer.swift; sourceTree = "<group>"; };
+		DAFCFFCB297FDA37000E4445 /* Charts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Charts.framework; path = System/Library/Frameworks/Charts.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAFCFFCD297FDA80000E4445 /* Charts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +67,7 @@
 			children = (
 				DA8A06B6297E4E570092F70E /* ChartsPOC */,
 				DA8A06B5297E4E570092F70E /* Products */,
+				DA8A06CB297E4EC30092F70E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +84,58 @@
 			children = (
 				DA8A06B7297E4E570092F70E /* AppDelegate.swift */,
 				DA8A06B9297E4E570092F70E /* SceneDelegate.swift */,
-				DA8A06BB297E4E570092F70E /* ViewController.swift */,
+				DA8F8849297FF1D400D99490 /* Bar UI */,
+				DA8F8846297FF18A00D99490 /* Bar Feature */,
+				DA8F883C297FF0DE00D99490 /* InMemoryBarChartLoader.swift */,
 				DA8A06BD297E4E570092F70E /* Main.storyboard */,
 				DA8A06C0297E4E580092F70E /* Assets.xcassets */,
 				DA8A06C2297E4E580092F70E /* LaunchScreen.storyboard */,
 				DA8A06C5297E4E590092F70E /* Info.plist */,
 			);
 			path = ChartsPOC;
+			sourceTree = "<group>";
+		};
+		DA8A06CB297E4EC30092F70E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DAFCFFCB297FDA37000E4445 /* Charts.framework */,
+				DA8A06CC297E4EC30092F70E /* Charts.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA8F8846297FF18A00D99490 /* Bar Feature */ = {
+			isa = PBXGroup;
+			children = (
+				DA8F8840297FF10E00D99490 /* BarChartLoader.swift */,
+				DA8F8847297FF19100D99490 /* Bar.swift */,
+			);
+			path = "Bar Feature";
+			sourceTree = "<group>";
+		};
+		DA8F8849297FF1D400D99490 /* Bar UI */ = {
+			isa = PBXGroup;
+			children = (
+				DA8F884B297FF1EC00D99490 /* Composer */,
+				DA8F884A297FF1DF00D99490 /* Controller */,
+			);
+			path = "Bar UI";
+			sourceTree = "<group>";
+		};
+		DA8F884A297FF1DF00D99490 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DA8A06BB297E4E570092F70E /* BarChartViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DA8F884B297FF1EC00D99490 /* Composer */ = {
+			isa = PBXGroup;
+			children = (
+				DAFCFFC9297FC46C000E4445 /* BarChartUIComposer.swift */,
+			);
+			path = Composer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,6 +148,7 @@
 				DA8A06B0297E4E570092F70E /* Sources */,
 				DA8A06B1297E4E570092F70E /* Frameworks */,
 				DA8A06B2297E4E570092F70E /* Resources */,
+				DAFCFFCF297FDA80000E4445 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -138,9 +210,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA8A06BC297E4E570092F70E /* ViewController.swift in Sources */,
+				DAFCFFCA297FC46C000E4445 /* BarChartUIComposer.swift in Sources */,
+				DA8F8848297FF1B300D99490 /* Bar.swift in Sources */,
+				DA8A06BC297E4E570092F70E /* BarChartViewController.swift in Sources */,
 				DA8A06B8297E4E570092F70E /* AppDelegate.swift in Sources */,
 				DA8A06BA297E4E570092F70E /* SceneDelegate.swift in Sources */,
+				DA8F883D297FF0DE00D99490 /* InMemoryBarChartLoader.swift in Sources */,
+				DA8F8841297FF10E00D99490 /* BarChartLoader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
